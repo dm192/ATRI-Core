@@ -1,38 +1,66 @@
 # ATRI-Core
-Concept and Implementation of Real-life ATRI
+Realization and Implementation of ATRI in Reality
 
 -------------
 
 ~~Believe me, I'm just a fervent ATRI enthusiast~~
 
-Firstly, ever since discovering ATRI, I've been enamored with this character. Being a robot, ATRI at least has some connection to reality. ~~Under the coaxing of a certain mysterious individual~~, I conceived the idea of creating a real-life "True • ATRI".
+First of all, ever since I encountered ATRI, I've been deeply fond of this character. Plus, ATRI being a robot somewhat aligns with reality, ~~thanks to a certain mysterious individual's encouragement~~, I conceived the idea of creating a real-life "True • ATRI".
 
-After much contemplation ~~and late-night ATRI binging~~, I formulated a rough plan for the entire project.
+After many days of contemplation ~~and late-night staring at ATRI~~, I have a rough outline for the entire plan.
 
 ### AI System
-The AI system poses one of the more challenging aspects. Imagine a miniaturized mainframe controlling an entire humanoid, managing a variety of sensors and more importantly, its AI, which needs to be even more impressive than ChatGPT-4o and integrated into a single unit. This is quite tricky.
+Firstly, the AI system is quite challenging. Imagine a miniaturized host that controls the entire body, alongside various sensors and whatnot, with its AI being the most demanding aspect—more powerful than ChatGPT-4o and integrated into a single host, making it quite tricky.
 
-So, I thought of developing a completely new model. While browsing videos on Bilibili, I stumbled upon a concept related to human brain processes. I figured coding this wouldn't be too difficult, using C++ to simulate the human thought process. ~~No surprise, given my high-performance skills, haha~~.
+So, I thought of creating a completely new model. While browsing Bilibili (B站), I stumbled upon a video discussing the human brain's thinking process. I realized coding this wouldn't be too difficult. Thus, I plan to simulate the brain's thought process using C++, although I'm quite clueless about C++. But using other languages could pose speed issues, so... time to learn.
 
-However, in reality, this presents a technical challenge as I'm entirely unfamiliar with C++. But using other languages poses speed issues, so... I'll learn it.
-
-For the logical framework of the system, there's a vague concept: Input information → Extract relevant data for judgment and processing → Query memory based on this information → Pre-process emotional modules → Emulate human brain decision mechanisms → Emotional processing by the module → System control parsing → Control peripheral devices for external output.
+For the logical framework of the entire system, I currently have a vague concept: Input Information → Extract Information needing assessment and processing → Query Memory based on this information → Pre-process Emotional Module → Human-like Judgment Mechanism → Emotional Module handles emotional processing → Control System interpretation → Control peripherals for external output.
 
 ### Energy
-Currently, the plan is to use miniature controlled nuclear fusion ~~(referred to jokingly as eating and excreting by a certain mysterious individual)~~ to provide energy. This ensures ATRI can last beyond generations, which has its pros and cons.
+Currently, I plan to use small-scale controlled nuclear fusion for energy (another idea from that mysterious individual). The advantage is ATRI can keep going even after ten generations in your family pass away; the downside is the same—it keeps going.
 
-I don't know much about this yet, except that China's "Sun" (not Liu Cixin's novel, the real one) uses a tokamak device for fusion. Developing this involves significant physics and chemistry challenges. Its mathematical model is like a mini-star, needing to prevent shell meltdown physically and being relatively straightforward chemically.
+I don't know much about this, except China's "Sun" (not Liu Cixin's novel, the real one) uses a Tokamak device for nuclear fusion. Developing this involves significant physical and chemical challenges, with its mathematical model akin to a miniature star, ensuring it doesn't melt its shell physically and chemically, respectively.
 
 If achieved, it should last at least 200 years.
 
 ### Remote Control (???)
-Guess why I had this idea... It's because while browsing Bilibili, I saw Bondo being possessed. This tech isn't as cool in reality as in Zenless Zone Zero (ZZZ), so achieving the tech specs will borrow slightly from Elon Musk's brain-computer interface. If you're willing, you could strike a pose like in ZZZ and let ATRI act as your surrogate for any task. But this needs high-speed wireless connectivity!
+Can you guess why I had this idea? It's because I saw Bonbu being possessed while browsing Bilibili, though it's not as cool in reality as in ZZZ (Zenless Zone Zero). To meet the tech requirements, we'll lightly borrow Elon Musk's brain-computer interface. If you're willing, you can strike a pose like in ZZZ and let ATRI act as your surrogate for anything. But it needs high-speed wireless connectivity!
 
-For technical details: Use WebSocket or high-power UHD connections, though WebSocket may delay over distance and UHD could disconnect. Some artificial satellites use UHD, but ground interference is a major tech challenge.
+For the technical details: Use WebSocket or high-power UHD (Ultra High Definition) connections. WebSocket might have latency issues if you stray too far; UHD might disconnect. Some artificial Earth satellites use UHD, but ground interference is a significant issue—technical problem.
 
-For this function, plan to use a brain-computer interface for command control and sensory data transfer. Encryption is crucial, planning to deploy a proprietary encryption algorithm + validation.
+For this feature, plan to use brain-computer interface for command control and sensory data transmission. Encryption is crucial, planning to use a proprietary encryption algorithm + verification.
 
 ### Peripherals and Hardware
-For peripherals and hardware, the plan mirrors the original, which I won't elaborate on (implementing content from the original isn't difficult, just expensive).
+For peripherals and hardware, I plan to follow the original design (not much to elaborate since implementing from the original isn't difficult, except it burns money).
 
-*Translate By ChatGPT-3.5*
+Unmentioned in the original, for power, I plan to use high-power electric motors, adjusting voltage and adding appropriate force arms for effects. Processor and mainboard: Use existing OrangePi AIpro(20T), with self-developed hardware control system and Linux-based OS. Heat dissipation: Use semiconductor thermal conductive sheets to direct head (where mainboard resides) heat downward, while cooling liquid circulating through body simulates human skin capillaries for overall cooling and body temperature simulation. As for eating mentioned in the original... simulate human digestive system internally, but via incineration, chemical agents, and... (let's not go into too much detail).
+
+### Budget and Funding
+*To be added*
+
+### Other Content, To Be Added
+
+-------------
+
+### Compilation
+*Using Debian/Ubuntu as an example*
+
+Firstly, install Python3, g++, git, and other tools using the following command:
+```bash
+sudo apt install python3 g++ git -y
+```
+Then, enter any directory you have read-write permissions for, and execute:
+```bash
+git clone https://github.com/dm192/ATRI-Core.git -b master
+```
+Wait for completion, then add executable permission to the compile script with:
+```bash
+chmod +x ./make/make.py
+```
+Proceed with compilation by executing:
+```bash
+./make/make.py
+```
+Once done, find your output files in `./out/.`
+ 
+Due to my love for inside jokes, if there are any inaccuracies or modifications needed, please [PR](https://github.com/dm192/ATRI-Core/pulls)
