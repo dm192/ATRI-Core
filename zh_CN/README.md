@@ -52,13 +52,9 @@ sudo apt install python3 g++ git -y
 ```bash
 git clone https://github.com/dm192/ATRI-Core.git -b master
 ```
-等待执行完毕后，执行以下命令来为编译脚本增加可执行权限：
-```bash
-chmod +x ./ATRI-Core/make/make.py
-```
 接着就是编译了，执行：
 ```bash
-./ATRI-Core/make/make.py
+python3 ./ATRI-Core/make/make.py
 ```
 等待执行完毕后，你可以在`./ATRI-Core/out/`看到输出的文件。
 
