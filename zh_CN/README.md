@@ -54,12 +54,12 @@ git clone https://github.com/dm192/ATRI-Core.git -b master
 ```
 等待执行完毕后，执行以下命令来为编译脚本增加可执行权限：
 ```bash
-chmod +x ./make/make.py
+chmod +x ./ATRI-Core/make/make.py
 ```
 接着就是编译了，执行：
 ```bash
-./make/make.py
+./ATRI-Core/make/make.py
 ```
-等待执行完毕后，你可以在`./out/`看到输出的文件。
+等待执行完毕后，你可以在`./ATRI-Core/out/`看到输出的文件。
 
 *由于我本人过于喜欢玩梗，如果哪里有表达不妥或需要修改的，请[PR](https://github.com/dm192/ATRI-Core/pulls)*
