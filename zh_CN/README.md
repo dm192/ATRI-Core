@@ -40,19 +40,19 @@
 *以Debian/Ubuntu为例*
  
 首先，你需要安装 Python3、g++、git 等工具 ，使用下面命令来安装：
-```
+```bash
 sudo apt install python3 g++ git -y
 ```
 然后，进入任何你喜欢的、有读写权限的目录，执行：
-```
+```bash
 git clone https://github.com/dm192/ATRI-Core.git -b master
 ```
 等待执行完毕后，执行以下命令来为编译脚本增加可执行权限：
-```
+```bash
 chmod +x ./make/make.py
 ```
 接着就是编译了，执行：
-```
+```bash
 ./make/make.py
 ```
 等待执行完毕后，你可以在`./out/`看到输出的文件。
