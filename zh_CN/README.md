@@ -38,7 +38,8 @@
 -------------
 ### 编译
 *以Debian/Ubuntu为例*
-首先，你需要安装 Python3、g++、git等工具 ，使用下面命令来安装：
+ 
+首先，你需要安装 Python3、g++、git 等工具 ，使用下面命令来安装：
 ```
 sudo apt install python3 g++ git -y
 ```
