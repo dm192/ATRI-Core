@@ -26,7 +26,7 @@ I don't know much about this yet, except that China's "Sun" (not Liu Cixin's nov
 If achieved, it should last at least 200 years.
 
 ### Remote Control (???)
-Guess why I had this idea... It's because while browsing Bilibili, I saw Bondo being possessed. This tech isn't as cool in reality as in Zenless Zone Zero (no spoilers), so achieving the tech specs will borrow slightly from Elon Musk's brain-computer interface. If you're willing, you could strike a pose like in ZZZ and let ATRI act as your surrogate for any task. But this needs high-speed wireless connectivity!
+Guess why I had this idea... It's because while browsing Bilibili, I saw Bondo being possessed. This tech isn't as cool in reality as in Zenless Zone Zero (ZZZ), so achieving the tech specs will borrow slightly from Elon Musk's brain-computer interface. If you're willing, you could strike a pose like in ZZZ and let ATRI act as your surrogate for any task. But this needs high-speed wireless connectivity!
 
 For technical details: Use WebSocket or high-power UHD connections, though WebSocket may delay over distance and UHD could disconnect. Some artificial satellites use UHD, but ground interference is a major tech challenge.
 
