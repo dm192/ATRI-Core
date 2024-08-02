@@ -1,5 +1,5 @@
 # ATRI-Core
-Realization and Implementation of ATRI in Reality
+Concept and Implementation of Real-life ATRI
 
 -------------
 
