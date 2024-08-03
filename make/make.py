@@ -13,7 +13,7 @@ print(" * Check File : ./main.cpp")
 #if后未加空格;无需==True
 if os.path.isfile("./main.cpp"):
   print(" * Check File Done : ./main.cpp")
-  os.system("g++ ./main.cpp && mv ./a.out ./out/main && chmod +x ./out/main")
+  os.system("g++ ./main.cpp -o main && mv ./main ./out/main && chmod +x ./out/main")
   print("./main.cpp -> ./out/main")
   
   # More File
