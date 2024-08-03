@@ -13,7 +13,9 @@ For the logical framework of the entire system, I currently have a vague concept
 ### Energy
 At present, I plan to use ~~eating and excretion~~small controlled nuclear fusion to provide energy (this is still the idea of ​​a certain mysterious person). The advantage of doing this is that after 10 generations of your family, ATRI can still be used; the disadvantage is that after 10 generations of your family, ATRI can still be used...  
 I don’t know too much about this. I only know that the Chinese sun (not the one in Liu Cixin’s novel, the real one) uses a tokamak device to achieve nuclear fusion. The research and development of this thing seems to be very difficult in physics and chemistry. Its mathematical model is like a mini star. Physically, it must ensure that it does not melt the outer shell, but chemically, it is relatively simple.  
-?> If it is realized, it will be no problem to use it for at least 200 years.  
+
+?> If it is realized, it will be no problem to use it for at least 200 years.
+
 ### Remote control (???)
 Guess why I have this idea... The reason is that when I was browsing B station, I saw Bomb being possessed. This technology is not as cool as ZZZ (Zero Zone) in reality. In order to meet the technical requirements, we have to use Mr. Elon Musk's brain-computer interface. Then, if you want, you can also pose like in ZZZ, and let ATRI be your stand-in to do anything for you. But this requires a high-speed wireless connection!  
 For the technical details of this function: use Websocket connection or high-power UHD connection, provided that you cannot run too far, otherwise the Websocket will have a certain delay and the UHD will be disconnected. Although some artificial earth satellites also use UHD, the interference on the ground is much more than in the air, which is a technical problem.  
@@ -63,5 +65,7 @@ Then compile, execute:
 ./make/make.sh
 ```
 After waiting for the execution to complete, you can see the output file in `./out/`.
-?> If there is a compilation error, it is not your problem. If you know C++, please help me check the error...  
+
+?> If there is a compilation error, it is not your problem. If you know C++, please help me check the error...
+
 *Since I like to play with memes too much, if there is any inappropriate expression or need to be modified, please [PR](https://github.com/dm192/ATRI-Core/pulls)*
