@@ -1,66 +1,67 @@
 # ATRI-Core
-Concept and Implementation of Real-life ATRI
+The concept and realization of the real version of ATRI
 
 -------------
-
-~~Believe me, I'm just a fervent ATRI enthusiast~~
-
-First of all, ever since I encountered ATRI, I've been deeply fond of this character. Plus, ATRI being a robot somewhat aligns with reality, ~~thanks to a certain mysterious individual's encouragement~~, I conceived the idea of creating a real-life "True • ATRI".
-
-After many days of contemplation ~~and late-night staring at ATRI~~, I have a rough outline for the entire plan.
-
-### AI System
-Firstly, the AI system is quite challenging. Imagine a miniaturized host that controls the entire body, alongside various sensors and whatnot, with its AI being the most demanding aspect—more powerful than ChatGPT-4o and integrated into a single host, making it quite tricky.
-
-So, I thought of creating a completely new model. While browsing Bilibili (B站), I stumbled upon a video discussing the human brain's thinking process. I realized coding this wouldn't be too difficult. Thus, I plan to simulate the brain's thought process using C++, although I'm quite clueless about C++. But using other languages could pose speed issues, so... time to learn.
-
-For the logical framework of the entire system, I currently have a vague concept: Input Information → Extract Information needing assessment and processing → Query Memory based on this information → Pre-process Emotional Module → Human-like Judgment Mechanism → Emotional Module handles emotional processing → Control System interpretation → Control peripherals for external output.
-
+~~Believe me, I am just an ardent ATRI pursuer~~  
+First of all, I have liked this character since I saw ATRI. In addition, ATRI itself is a robot, which is at least somewhat related to reality.~~At the instigation of a mysterious person~~I came up with the idea of ​​creating a "Real ATRI" in reality.  
+After many days of deep thinking~~and staring at ATRI in the middle of the night~~, I have a general idea of ​​the whole plan.  
+### AI system
+First of all, the AI ​​system is relatively difficult. You can imagine that a mini host has to control the whole person and take into account a mess of sensors and whatnot. The most performance-intensive part is its AI, which is even better than ChatGPT-4o. It also has to be integrated into a host, which is very tricky.  
+So I thought that I should create a brand new model. When I was watching videos on Bilibili, I accidentally saw a video about the thinking process of the human brain. I thought about it and thought that it would not be too difficult to implement it with code. Then I planned to develop the entire AI system by simulating the thinking process of the human brain through C++. ~~I am indeed a high-performance person, haha~~  
+But in fact, this is also a technical problem, because I know nothing about C++... but using other things will encounter problems with running speed, so... learn it  
+For the logical framework of the entire system, I currently have a vague concept. First, from input information → extract information that needs to be judged and processed → query memory based on this information → emotional module preprocessing → simulate human brain judgment mechanism → hand it over to the emotional module for emotional processing → control system analysis → control peripherals to output  
 ### Energy
-Currently, I plan to use small-scale controlled nuclear fusion for energy (another idea from that mysterious individual). The advantage is ATRI can keep going even after ten generations in your family pass away; the downside is the same—it keeps going.
+At present, I plan to use ~~eating and excretion~~small controlled nuclear fusion to provide energy (this is still the idea of ​​a certain mysterious person). The advantage of doing this is that after 10 generations of your family, ATRI can still be used; the disadvantage is that after 10 generations of your family, ATRI can still be used...  
+I don’t know too much about this. I only know that the Chinese sun (not the one in Liu Cixin’s novel, the real one) uses a tokamak device to achieve nuclear fusion. The research and development of this thing seems to be very difficult in physics and chemistry. Its mathematical model is like a mini star. Physically, it must ensure that it does not melt the outer shell, but chemically, it is relatively simple.  
+?> If it is realized, it will be no problem to use it for at least 200 years.  
+### Remote control (???)
+Guess why I have this idea... The reason is that when I was browsing B station, I saw Bomb being possessed. This technology is not as cool as ZZZ (Zero Zone) in reality. In order to meet the technical requirements, we have to use Mr. Elon Musk's brain-computer interface. Then, if you want, you can also pose like in ZZZ, and let ATRI be your stand-in to do anything for you. But this requires a high-speed wireless connection!  
+For the technical details of this function: use Websocket connection or high-power UHD connection, provided that you cannot run too far, otherwise the Websocket will have a certain delay and the UHD will be disconnected. Although some artificial earth satellites also use UHD, the interference on the ground is much more than in the air, which is a technical problem.  
+For this function, I plan to use a brain-computer interface to achieve the transmission of control instructions and sensory data. Encryption is very important in this regard, and I plan to use an undisclosed encryption algorithm + verification to solve it.  
+### Peripherals and hardware
+In terms of peripherals and hardware, I plan to follow the original work, so I won’t describe it in detail (because the content in the original work is not difficult to implement at present, but it is just a waste of money)  
+There are some places that are not mentioned in the original work. In terms of power, I plan to use a high-power motor and achieve the effect by adjusting the voltage and appropriately increasing the force arm.  
+In terms of processors and main control boards, I plan to use the existing OrangePi AIpro (20T), plus my own hardware control system and self-developed operating system based on Linux.  
+For heat dissipation, I plan to use a semiconductor heat conduction sheet to conduct the heat from the head (where the main control board is located) downward alone, and the heat below the head is dissipated by circulating the cooling fluid that imitates the capillaries in human skin, which can also be used to simulate body temperature.  
+As for the eating mentioned in the original work... a human-like digestive system is set up in the body, but it is done by burning, adding chemical reagents, and then... (I won't say too much)  
+The bus is currently planned to use I2C, which will be responsible for connecting all sensors, motors and other components to communicate with the main control board.  
+### Budget
+|Technology or components|Estimated budget|
+|--------|-------|
+|Small controlled nuclear fusion|*To be supplemented*|
+|Brain-computer interface|*To be supplemented*|
+|High-power wireless chip|*To be supplemented*|
+|OrangePi AIpro(20T)| 1499 CNY |
+|Artificial skin|*To be supplemented*|
+|Self-developed operating system|*To be supplemented*|
+|Heat dissipation|*To be supplemented*|
+|*To be supplemented*|*To be supplemented*|
 
-I don't know much about this, except China's "Sun" (not Liu Cixin's novel, the real one) uses a Tokamak device for nuclear fusion. Developing this involves significant physical and chemical challenges, with its mathematical model akin to a miniature star, ensuring it doesn't melt its shell physically and chemically, respectively.
-
-If achieved, it should last at least 200 years.
-
-### Remote Control (???)
-Can you guess why I had this idea? It's because I saw Bonbu being possessed while browsing Bilibili, though it's not as cool in reality as in ZZZ (Zenless Zone Zero). To meet the tech requirements, we'll lightly borrow Elon Musk's brain-computer interface. If you're willing, you can strike a pose like in ZZZ and let ATRI act as your surrogate for anything. But it needs high-speed wireless connectivity!
-
-For the technical details: Use WebSocket or high-power UHD (Ultra High Definition) connections. WebSocket might have latency issues if you stray too far; UHD might disconnect. Some artificial Earth satellites use UHD, but ground interference is a significant issue—technical problem.
-
-For this feature, plan to use brain-computer interface for command control and sensory data transmission. Encryption is crucial, planning to use a proprietary encryption algorithm + verification.
-
-### Peripherals and Hardware
-For peripherals and hardware, I plan to follow the original design (not much to elaborate since implementing from the original isn't difficult, except it burns money).
-
-Unmentioned in the original, for power, I plan to use high-power electric motors, adjusting voltage and adding appropriate force arms for effects. Processor and mainboard: Use existing OrangePi AIpro(20T), with self-developed hardware control system and Linux-based OS. Heat dissipation: Use semiconductor thermal conductive sheets to direct head (where mainboard resides) heat downward, while cooling liquid circulating through body simulates human skin capillaries for overall cooling and body temperature simulation. As for eating mentioned in the original... simulate human digestive system internally, but via incineration, chemical agents, and... (let's not go into too much detail).
-
-### Budget and Funding
-*To be added*
-
-### Other Content, To Be Added
+### Other content, to be supplemented
 
 -------------
-
-### Compilation
-*Using Debian/Ubuntu as an example*
-
-Firstly, install Python3, g++, git, and other tools using the following command:
+### Compile
+***Take Debian / Ubuntu on x86_64 platform as an example***  
+First, you need to install bash, g++, git and other tools. Use the following command to install:
 ```bash
-sudo apt install python3 g++ git -y
+sudo apt install bash g++ git -y
 ```
-Then, enter any directory you have read-write permissions for, and execute:
+Then, go to any directory you like with read and write permissions and execute:
 ```bash
 git clone https://github.com/dm192/ATRI-Core.git -b master
 ```
-Wait for completion, then add executable permission to the compile script with:
+This will create an "ATRI-Core" folder in the current directory, go into it:
 ```bash
-chmod +x ./make/make.py
+cd ./ATRI-Core/
 ```
-Proceed with compilation by executing:
+Add executable permissions to the compilation script:
 ```bash
-./make/make.py
+chmod +x ./make/make.sh
 ```
-Once done, find your output files in `./out/.`
- 
-Due to my love for inside jokes, if there are any inaccuracies or modifications needed, please [PR](https://github.com/dm192/ATRI-Core/pulls)
+Then compile, execute:
+```bash
+./make/make.sh
+```
+After waiting for the execution to complete, you can see the output file in `./out/`.
+?> If there is a compilation error, it is not your problem. If you know C++, please help me check the error...  
+*Since I like to play with memes too much, if there is any inappropriate expression or need to be modified, please [PR](https://github.com/dm192/ATRI-Core/pulls)*
