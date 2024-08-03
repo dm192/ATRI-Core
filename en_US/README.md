@@ -2,6 +2,9 @@
 The concept and realization of the real version of ATRI
 
 -------------
+
+!> Recently, our website has been experiencing slow access speeds in mainland China. If you encounter this problem, please try using proxy software or wait patiently for the website to load!
+
 ~~Believe me, I am just an ardent ATRI pursuer~~  
 First of all, I have liked this character since I saw ATRI. In addition, ATRI itself is a robot, which is at least somewhat related to reality.~~At the instigation of a mysterious person~~I came up with the idea of ​​creating a "Real ATRI" in reality.  
 After many days of deep thinking~~and staring at ATRI in the middle of the night~~, I have a general idea of ​​the whole plan.  
