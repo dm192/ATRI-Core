@@ -53,11 +53,11 @@
 
 -------------
 ### 编译
-*以Debian/Ubuntu为例*
+*以 x86_64 平台的 Debian / Ubuntu 为例*
  
-首先，你需要安装 Python3、g++、git 等工具 ，使用下面命令来安装：
+首先，你需要安装 bash、g++、git 等工具 ，使用下面命令来安装：
 ```bash
-sudo apt install python3 g++ git -y
+sudo apt install bash g++ git -y
 ```
 然后，进入任何你喜欢的、有读写权限的目录，执行：
 ```bash
@@ -69,7 +69,7 @@ cd ./ATRI-Core/
 ```
 接着就是编译了，执行：
 ```bash
-python3 ./make/make.py
+./make/make.sh
 ```
 等待执行完毕后，你可以在`./out/`看到输出的文件。
 
