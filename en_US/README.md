@@ -17,7 +17,7 @@ I don’t know too much about this. I only know that the Chinese sun (not the on
 ?> If it is realized, it will be no problem to use it for at least 200 years.
 
 ### Remote control (???)
-Guess why I have this idea... The reason is that when I was browsing B station, I saw Bomb being possessed. This technology is not as cool as ZZZ (Zero Zone) in reality. In order to meet the technical requirements, we have to use Mr. Elon Musk's brain-computer interface. Then, if you want, you can also pose like in ZZZ, and let ATRI be your stand-in to do anything for you. But this requires a high-speed wireless connection!  
+Guess why I have this idea... The reason is that when I was browsing B station, I saw Bomb being possessed. This technology is not as cool as ZZZ (Zenless Zero Zone) in reality. In order to meet the technical requirements, we have to use Mr. Elon Musk's brain-computer interface. Then, if you want, you can also pose like in ZZZ, and let ATRI be your stand-in to do anything for you. But this requires a high-speed wireless connection!  
 For the technical details of this function: use Websocket connection or high-power UHD connection, provided that you cannot run too far, otherwise the Websocket will have a certain delay and the UHD will be disconnected. Although some artificial earth satellites also use UHD, the interference on the ground is much more than in the air, which is a technical problem.  
 For this function, I plan to use a brain-computer interface to achieve the transmission of control instructions and sensory data. Encryption is very important in this regard, and I plan to use an undisclosed encryption algorithm + verification to solve it.  
 ### Peripherals and hardware
