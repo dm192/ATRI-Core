@@ -41,7 +41,7 @@
 
 -------------
 ### 编译
-*以 x86_64 平台的 Debian / Ubuntu 为例*  
+***以 x86_64 平台的 Debian / Ubuntu 为例***  
 首先，你需要安装 bash、g++、git 等工具 ，使用下面命令来安装：
 ```bash
 sudo apt install bash g++ git -y
