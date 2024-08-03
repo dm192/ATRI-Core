@@ -67,6 +67,10 @@ git clone https://github.com/dm192/ATRI-Core.git -b master
 ```bash
 cd ./ATRI-Core/
 ```
+为编译脚本增加可执行权限：
+```bash
+chmod +x ./make/make.sh
+```
 接着就是编译了，执行：
 ```bash
 ./make/make.sh
