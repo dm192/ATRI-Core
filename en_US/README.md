@@ -61,11 +61,11 @@ cd ./ATRI-Core/
 ```
 Add executable permissions to the compilation script:
 ```bash
-chmod +x ./make/make.sh
+chmod +x ./make.sh
 ```
 Then compile, execute:
 ```bash
-./make/make.sh
+./make.sh
 ```
 After waiting for the execution to complete, you can see the output file in `./out/`.
 
