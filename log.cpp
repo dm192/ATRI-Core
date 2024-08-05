@@ -20,7 +20,7 @@ void writeLog(const string& module, const string& message) {
     
     ofstream logfile(logFileName, ios::app);
     if (!logfile) {
-        cerr << "Error: Unable to open log file " << logFileName << " for writing." << endl;
+        cerr << "E:1 " << logFileName << endl;
         return;
     }
     
