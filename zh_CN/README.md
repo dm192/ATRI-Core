@@ -60,11 +60,11 @@ cd ./ATRI-Core/
 ```
 为编译脚本增加可执行权限：
 ```bash
-chmod +x ./make/make.sh
+chmod +x ./make.sh
 ```
 接着就是编译了，执行：
 ```bash
-./make/make.sh
+./make.sh
 ```
 等待执行完毕后，你可以在`./out/`看到输出的文件。
 
